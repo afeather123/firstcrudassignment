@@ -1,0 +1,25 @@
+{
+  "name": "firstcrudassignment",
+  "version": "1.0.0",
+  "description": "Build your first crud app! Using what we learned yesterday create a full crud app for user objects. The objects should look like this:\r {\r   \"name\":\"user name\",\r   \"email\": \"user email\",\r   \"state\": \"CA\"\r }",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeather123/firstcrudassignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afeather123/firstcrudassignment/issues"
+  },
+  "homepage": "https://github.com/afeather123/firstcrudassignment#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
